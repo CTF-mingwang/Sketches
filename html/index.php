@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
     <head>
-        <title> HOME | Aside Responsive HTML Theme</title>
+        <title>My Sketches</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
         <!-- Mobile Specific Metas -->
@@ -47,7 +47,7 @@
                         <div class="loading-dot1">&nbsp;</div>
                         <div class="loading-dot2">&nbsp;</div>
                     </div>
-                    <div class="site-loading-logo centered-ux">Sketches</div>
+                    <div class="site-loading-logo centered-ux">My Sketches</div>
                 </div>
             </div>
         </div>
@@ -93,7 +93,7 @@
                 <div class="sidebar-main">
 
                     <!--Logo-->
-                    <h1 id="logo"><a href="index.html" title="My Sketches">Sketches</a></h1>
+                    <h1 id="logo"><a href="index.php" title="My Sketches">Sketches</a></h1>
 
                     <!--Menu-->
                     <nav id="navi" class="clearfix">
@@ -183,7 +183,7 @@
             </aside>
             <!--Header-->
             <header id="header">
-                <h1 id="logo-mobile"><a href="index.html" title="Aside Responsive HTML Theme">Aside</a></h1>
+                <h1 id="logo-mobile"><a href="index.php" title="Collection of David Chen's Sketches">Sketches</a></h1>
             </header>
             <!--End Header-->
             <!--#main-wrap-->
