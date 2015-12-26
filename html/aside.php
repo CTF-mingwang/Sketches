@@ -11,7 +11,7 @@
 			<div id="navi_wrap" class="menu-demo-menu-container">
 				<ul class="menu">
 					<li id="menu-item-885" class="menu-item menu-item-type-post_type menu-item-object-page">
-						<a href="http://cwsoft.cc/sketches">HOME</a>
+						<a href="http://cwsoft.cc/sketches">BACK TO SKETCHES</a>
 					</li>
 					<li id="menu-item-885" class="menu-item menu-item-type-post_type menu-item-object-page">
 						<a href="http://cwsoft.cc">CWSOFT.CC</a>

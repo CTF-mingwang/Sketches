@@ -81,7 +81,7 @@
 												data-interval: timer
 												-->
 												<div class="galleria" data-crop="false" data-transition="fade" data-interval="5000">
-													<img src="../img/sketches/<?php echo $_GET['link']; ?>.JPG">
+													<img src="http://cwsoft.cc/sketches/img/sketches/<?php echo $_GET['link']; ?>.JPG">
 												</div>
 											</div><!--
 											<div class="gallery-info-wrap container">
