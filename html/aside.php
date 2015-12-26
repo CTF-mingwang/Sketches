@@ -1,4 +1,4 @@
-<aside id="sidebar" class="sidebar_show">
+<aside id="sidebar" class="sidebar_hide">
 	<div id="sidebar-trigger">
 		<div class="menu-icon"><i class="icon-m-menu"></i></div>
 	</div>
@@ -62,9 +62,9 @@
 			</form>
 			<!--Social icons-->
 			<div class="social-icons-sidebar">
-				<a class="icons-sidebar-unit" href="https://twitter.com/uiueux" title="Follow us"><i class="fa fa-twitter-square"></i></a>    
+				<a class="icons-sidebar-unit" href="https://twitter.com/uiueux" title="Follow us"><i class="fa fa-twitter-square"></i></a>
 				<a class="icons-sidebar-unit" href="https://www.facebook.com/Uiueux/" title="Follow us"><i class="fa fa-facebook-square"></i></a>
-				<a class="icons-sidebar-unit" href="#" title=""><i class="fa fa-google-plus-square"></i></a>           
+				<a class="icons-sidebar-unit" href="#" title=""><i class="fa fa-google-plus-square"></i></a>
 				<a class="icons-sidebar-unit" href="https://www.youtube.com/" title=""><i class="fa fa-youtube-square"></i></a>
 			</div>
 			<!--End Social icons-->
