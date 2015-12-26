@@ -10,7 +10,7 @@
 		<!-- Favicons -->
 		<link rel="shortcut icon" href="./img/favicon.ico">
 		<link rel="apple-touch-icon-precomposed" href="./img/favicon.ico">
-		
+
 		<!-- Google fonts styles -->
 		<link rel="stylesheet" id="google-fonts-Roboto-css" href="http://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&amp;ver=3.9.1" type="text/css" media="all">
 		<link rel="stylesheet" id="google-fonts-Playfair+Display-css" href="http://fonts.googleapis.com/css?family=Playfair+Display%3Aregular%2Citalic%2C700%2C700italic%2C900%2C900italic&amp;ver=3.9.1" type="text/css" media="all">
@@ -24,18 +24,7 @@
 		<link rel="stylesheet" id="ux-interface-galleria-classic-css" href="./js/galleria/themes/classic/galleria.classic.css?ver=1.3.5" type="text/css" media="screen">
 		<!-- Jquery Lib version 1.11.0 -->
 		<script type="text/javascript" src="./js/jquery.min.js"></script>
-		
-		<!-- IE hack -->
-		<!--[if lte IE 9]>
-		<link rel='stylesheet' id='cssie'  href='./styles/ie.css' type='text/css' media='screen' />
-		<![endif]-->
-		<!--[if lt IE 9]>
-		<script type="text/javascript" src="./js/ie.js"></script>
-		<link rel='stylesheet' id='cssie8'  href='./styles/ie8.css' type='text/css' media='screen' />
-		<![endif]-->
-		<!--[if lte IE 7]>
-		<div style="width: 100%;" class="messagebox_orange">Your browser is obsolete and does not support this webpage. Please use newer version of your browser or visit <a href="http://www.ie6countdown.com/" target="_new">Internet Explorer 6 countdown page</a>  for more information. </div>
-		<![endif]-->
+		<?php include 'include/ie.php'; ?>
 	</head>
 	<body class="home page page-id-122 page-template-default  responsive-ux boxed-line aside-layout-ux" style="height: auto;">
 		<!-- Page Loading -->
@@ -54,7 +43,7 @@
 
 		<!-- Jplayer -->
 		<div id="jquery_jplayer" class="jp-jplayer"></div>
-		
+
 		<!--Mobild Header meta-->
 		<div id="mobile-header-meta">
 			<!--Social icons-->
@@ -75,7 +64,7 @@
 				<h1 id="logo-mobile"><a href="index.php" title="Aside Responsive HTML Theme">Aside</a></h1>
 			</header>
 			<!--End Header-->
-			
+
 			<div id="main-wrap">
 				<div id="main" style="-webkit-transform-origin: 50% 665px;">
 					<div id="content">
@@ -83,10 +72,45 @@
 							<div id="content_wrap" class="">
 								<div class="row-fluid gallery-wrap gallery-wrap-fullwidth ">
 									<div class="gallery-images-wrap ">
-										<div class="row-fluid ">
-											<?php include 'posts/' . $_GET['link'] . '.html'; ?>
+										<div class="row-fluid "><div class="clear gallery-post-wrap">
+											<div class="gallery-wrap-slider ">
+												<!--galleria slider
+												data-crop: fit: flase, fill: true
+												data-transition: fade, slide
+												data-interval: timer
+												-->
+												<div class="galleria" data-crop="false" data-transition="fade" data-interval="5000">
+													<img src="../img/sketches/<?php echo $_GET['link']; ?>.jpg">
+												</div>
+											</div><!--
+											<div class="gallery-info-wrap container">
+												<div class="title-bar-wrap " id="title-bar">
+													<div id="title-wrap">
+														<div class="title-wrap-inn">
+															<div id="main-title">
+																<h1 class="main-title">Duke Decore</h1>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row-fluid">
+													<div class="entry span9">
+														<p>
+															A handsome dude.
+														</p>
+													</div>
+													<ul class="gallery-info-property span3">
+														<li><span class="gallery-info-property-tit">Author:</span>
+															<span><a href="https://cwsoft.cc">David Chen</a></span></li>
+														<li><span class="gallery-info-property-tit date">Date:
+														</span> <span>September 13, 2015</span></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+
 											<section class="related-post-wrap clearfix"><div class="row-fluid"></div></section>
-											<!--End related-post-erap-->
+											-->
 										</div>
 										<!--end row-fluid-->
 									</div>
@@ -100,11 +124,11 @@
 					</div>
 					<!--end content-->
 				</div>
-				<!--End #main-->        
+				<!--End #main-->
 			</div>
 			<!--End #main-wrap-->
 			<div id="hot-close-sidebar-touch"></div>
-		</div><!--End #wrap-->    
+		</div><!--End #wrap-->
 		<div id="float-bar" class="hidden-phone">
 			<div class="float-bar-inn-wrap">
 				<div class="float-bar-inn">
@@ -126,10 +150,10 @@
 				</div>
 				<!--End float inn wrap-->
 			</div><!--End float inn-->
-			<div id="float-bar-triggler"><i class="float-bar-triggler-inn"></i></div> 
+			<div id="float-bar-triggler"><i class="float-bar-triggler-inn"></i></div>
 		</div>
 		<!--End #float bar-->
-	
+
 		<script type="text/javascript" src="./js/bootstrap.js"></script>
 		<script type="text/javascript" src="./js/galleria/galleria-1.3.5.js?ver=1.3.5"></script>
 		<script type="text/javascript" src="./js/galleria/themes/classic/galleria.classic.min.js?ver=1.3.5"></script>

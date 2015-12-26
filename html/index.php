@@ -48,7 +48,7 @@
 		<div id="mobile-header-meta">
 
 			<!--Search Form-->
-			<form id="search_form" name="" method="get" class="search-form_header" action="http://ximudesign.com/aside/">
+			<form id="search_form" name="" method="get" class="search-form_header" action="http://cwsoft.cc/sketches/">
 				<input type="text" onblur="if (this.value == '') {this.value = 'SEARCH';}" onfocus="if (this.value == 'SEARCH') {this.value = '';}" id="s" name="s" value="SEARCH" class="textboxsearch">
 				<span class="submit-wrap">
 					<input type="submit" value="" class="submitsearch" name="submitsearch">
@@ -102,7 +102,8 @@
 																			<li class="active"><a href="#" data-filter="*">All</a></li>
 																			<li><a data-filter=".filter_portrait" href="#">PORTRAITS</a></li>
 																			<li><a data-filter=".filter_still-life" href="#">STILL LIFES</a></li>
-																			<li><a data-filter=".filter_popular" href="#">POPULAR</a></li>
+																			<li><a data-filter=".filter_vase" href="#">VASES</a></li>
+																			<li><a data-filter=".filter_fruit" href="#">FRUITS</a></li>
 																			<li><a data-filter=".filter_pen-drawing" href="#">PEN DRAWINGS</a></li>
 																		</ul>
 																		<div class="filter-floating-triggle hidden-phone"><i class="fa fa-filter"></i></div>
@@ -118,7 +119,7 @@
 																		</div>
 																		<div class="isotope masonry isotope_fade" data-space="1px" data-size="brick" style="margin: -1px 0px 0px -1px;">
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_portrait width-and-height isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
 																					<a href="content-portfolio-slider.php?link=2015-10-11" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
@@ -144,7 +145,7 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_portrait width-and-height isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
 																					<a href="content-portfolio-slider.php?link=2015-08-16" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
@@ -157,7 +158,7 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_portrait width-and-height isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
 																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
@@ -196,9 +197,9 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_pen-drawing width-and-small isotope-item brick-with-img">
+																			<div class="filter_pen-drawing width-and-long isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2015-06" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">Bart & Lisa</h3>
 																						</div>
@@ -211,9 +212,9 @@
 																			<!--Item-->
 																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2015-04-19" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">Hot Pot</h3>
+																							<h3 class="brick-title">Hot Pot No.2</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2015-04-19.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -224,7 +225,7 @@
 																			<!--Item-->
 																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2015-03-22" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">Teddy Bear</h3>
 																						</div>
@@ -235,9 +236,9 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2015-03-08" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">The Little Panda</h3>
 																						</div>
@@ -248,9 +249,9 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_portrait width-and-big isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2015-02-08" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">Assassin's Creed</h3>
 																						</div>
@@ -261,11 +262,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life filter_vase width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2015-01-18" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">Vase No.3</h3>
+																							<h3 class="brick-title">Vase No.5</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2015-01-18.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -274,9 +275,9 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-12-24" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">Eraser No.2</h3>
 																						</div>
@@ -287,9 +288,22 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life filter_fruit width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-12-07" class="brick-link">
+																						<div class="brick-hover-mask brick-hover">
+																							<h3 class="brick-title">The Bananas</h3>
+																						</div>
+																						<div class="brick-content">
+																							<img src="img/sketches-preview/2014-12-07.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
+																						</div>
+																					</a>
+																				</div>
+																			</div>
+																			<!--Item-->
+																			<div class="filter_still-life filter_fruit width-and-small isotope-item brick-with-img">
+																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
+																					<a href="content-portfolio-slider.php?link=2014-11-16" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">The Eggplant</h3>
 																						</div>
@@ -300,9 +314,9 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life filter_fruit width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-10-26" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">The Pitaya</h3>
 																						</div>
@@ -313,9 +327,9 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-09-21" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">Tea Pot</h3>
 																						</div>
@@ -326,9 +340,9 @@
 																				</div>
 																			</div>>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-07-27" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">The Light Bulb</h3>
 																						</div>
@@ -339,9 +353,9 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-06-22" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">The Stainless Steel Cup</h3>
 																						</div>
@@ -352,9 +366,9 @@
 																				</div>
 																			</div>>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-06-17" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
 																							<h3 class="brick-title">The Kettle</h3>
 																						</div>
@@ -365,11 +379,11 @@
 																				</div>
 																			</div>>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-06" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Eraser No.1</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2014-06.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -378,11 +392,11 @@
 																				</div>
 																			</div>>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-05-29" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Kettle No.2</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2014-05-29.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -391,11 +405,11 @@
 																				</div>
 																			</div>>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-05-25" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Kettle No.1</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2014-05-25.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -404,11 +418,11 @@
 																				</div>
 																			</div>>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life filter_vase width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-04-27" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Vase No.4</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2014-04-27.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -417,11 +431,11 @@
 																				</div>
 																			</div>>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life filter_vase width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-04-06" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Vase No.3</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2014-04-06.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -430,11 +444,11 @@
 																				</div>
 																			</div>>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-03-16" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">The Glass Pot</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2014-03-16.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -443,11 +457,11 @@
 																				</div>
 																			</div>>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-02-23" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Mineral Water</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2014-02-23.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -456,11 +470,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-02-09" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">The Pliers</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2014-02-09.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -469,11 +483,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2014-01-05" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Hot Pot No.1</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2014-01-05.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -482,11 +496,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2013-11-24" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">The Stainless Steel Boiler</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2013-11-24.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -495,24 +509,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2013-09-15" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
-																						</div>
-																						<div class="brick-content">
-																							<img src="img/sketches-preview/2013-11-10.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
-																						</div>
-																					</a>
-																				</div>
-																			</div>
-																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
-																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
-																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Beverage</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2013-09-15.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -521,11 +522,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life filter_fruit width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2013-08-28" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">A Tomato</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2013-08-28.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -534,11 +535,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life filter_fruit width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2013-08-20" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">An Apple</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2013-08-20.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -547,11 +548,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life filter_vase width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2013-08-11" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Vast No.2</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2013-08-11.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -560,11 +561,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life filter_vase width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2013-08-05" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Vast No.1</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2013-08-05.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -573,11 +574,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-small isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2013-08-04" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">Still Lifes</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2013-08-04.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -586,11 +587,11 @@
 																				</div>
 																			</div>
 																			<!--Item-->
-																			<div class="filter_portrait width-and-small isotope-item brick-with-img">
+																			<div class="filter_still-life width-and-long isotope-item brick-with-img">
 																				<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
-																					<a href="content-portfolio-slider.php?link=2015-08-02" class="brick-link">
+																					<a href="content-portfolio-slider.php?link=2013-07-21" class="brick-link">
 																						<div class="brick-hover-mask brick-hover">
-																							<h3 class="brick-title">DEMO</h3>
+																							<h3 class="brick-title">The Spoon</h3>
 																						</div>
 																						<div class="brick-content">
 																							<img src="img/sketches-preview/2013-07-21.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
@@ -632,18 +633,16 @@
 		<div id="float-bar" class="hidden-phone">
 			<div class="float-bar-inn-wrap">
 				<div class="float-bar-inn">
-					<!--Social network share icon-->
 					<div class="float-bar-social-share">
-						<button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/share.php?u=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
-						<button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/share?url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
-						<button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/share?url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
-						<button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/pin/create/bookmarklet/?url=http://ximudesign.com/aside/&amp;is_video=false&amp;media=','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
-						<button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/share.php?url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
-						<button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
+						<button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/share.php?u=http://cwsoft.cc/sketches/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
+						<button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/share?url=http://cwsoft.cc/sketches/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
+						<button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/share?url=http://cwsoft.cc/sketches/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
+						<button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/pin/create/bookmarklet/?url=http://cwsoft.cc/sketches/&amp;is_video=false&amp;media=','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
+						<button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/share.php?url=http://cwsoft.cc/sketches/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
+						<button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=http://cwsoft.cc/sketches/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
 					</div>
 				</div>
-				<!--End float inn wrap-->
-			</div><!--End float inn-->
+			</div>
 			<div id="float-bar-triggler"><i class="float-bar-triggler-inn"></i></div>
 		</div>
 		<!--End #float bar-->
