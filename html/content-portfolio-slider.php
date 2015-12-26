@@ -1,3 +1,4 @@
+<?php if (!isset ($_GET['link'])) { header ("location: http://cwsoft.cc/sketches"); die; } $link = $_GET['link']; ?>
 <!DOCTYPE html>
 <html lang="en-US">
 	<head>
@@ -61,7 +62,7 @@
 			<?php include 'aside.php'; ?>
 			<!--Header-->
 			<header id="header" class="">
-				<h1 id="logo-mobile"><a href="index.php" title="Aside Responsive HTML Theme">Aside</a></h1>
+				<h1 id="logo-mobile"><a href="index.php" title="David Chen's Sketches">Sketches</a></h1>
 			</header>
 			<!--End Header-->
 
@@ -73,14 +74,14 @@
 								<div class="row-fluid gallery-wrap gallery-wrap-fullwidth ">
 									<div class="gallery-images-wrap ">
 										<div class="row-fluid "><div class="clear gallery-post-wrap">
-											<div class="gallery-wrap-slider ">
+											<div class="gallery-wrap-slider" style="background:#FFF; color:#FFF">
 												<!--galleria slider
 												data-crop: fit: flase, fill: true
 												data-transition: fade, slide
 												data-interval: timer
 												-->
 												<div class="galleria" data-crop="false" data-transition="fade" data-interval="5000">
-													<img src="../img/sketches/<?php echo $_GET['link']; ?>.jpg">
+													<img src="../img/sketches/<?php echo $_GET['link']; ?>.JPG">
 												</div>
 											</div><!--
 											<div class="gallery-info-wrap container">
@@ -111,6 +112,10 @@
 
 											<section class="related-post-wrap clearfix"><div class="row-fluid"></div></section>
 											-->
+
+                                            <!--End related-post-erap-->
+
+										</div>
 										</div>
 										<!--end row-fluid-->
 									</div>
@@ -134,17 +139,17 @@
 				<div class="float-bar-inn">
 					<!--Social network share icon-->
 					<div class="float-bar-social-share">
-						<button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/share.php?u=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
+						<button class="social-share-facebook" onclick="javascript:window.open('http://www.facebook.com/share.php?u=http://cwsoft.cc/sketches/content-portfolio-slider.php?link=<?php echo $link; ?>','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-facebook"></i></button>
 
-						<button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/share?url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
+						<button class="social-share-twitter" onclick="javascript:window.open('https://twitter.com/share?url=http://cwsoft.cc/sketches/content-portfolio-slider.php?link=<?php echo $link; ?>','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-twitter"></i></button>
 
-						<button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/share?url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
+						<button class="social-share-google-plus" onclick="javascript:window.open('https://plus.google.com/share?url=http://cwsoft.cc/sketches/content-portfolio-slider.php?link=<?php echo $link; ?>','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-google-plus"></i></button>
 
-						<button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/pin/create/bookmarklet/?url=http://ximudesign.com/aside/&amp;is_video=false&amp;media=','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
+						<button class="social-share-pinterest" onclick="javascript:window.open('http://pinterest.com/pin/create/bookmarklet/?url=http://cwsoft.cc/sketches/content-portfolio-slider.php?link=<?php echo $link; ?>&amp;is_video=false&amp;media=','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-pinterest"></i></button>
 
-						<button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/share.php?url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
+						<button class="social-share-vk" onclick="javascript:window.open('http://vkontakte.ru/share.php?url=http://cwsoft.cc/sketches/content-portfolio-slider.php?link=<?php echo $link; ?>','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-vk"></i></button>
 
-						<button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=http://ximudesign.com/aside/','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
+						<button class="social-share-linkedin" onclick="javascript:window.open('http://www.linkedin.com/shareArticle?mini=true&amp;url=http://cwsoft.cc/sketches/content-portfolio-slider.php?link=<?php echo $link; ?>','', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><i class="fa fa-linkedin"></i></button>
 
 					</div>
 				</div>
