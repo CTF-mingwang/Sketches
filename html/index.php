@@ -96,6 +96,32 @@
 																		<!--Item-->
 																		<div class="filter_portrait width-and-height isotope-item brick-with-img">
 																			<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
+																				<a href="content-portfolio-slider.php?link=2016-05-15" class="brick-link">
+																					<div class="brick-hover-mask brick-hover">
+																						<h3 class="brick-title">Steve Jobs</h3>
+																					</div>
+																					<div class="brick-content">
+																						<img src="img/sketches-preview/2016-05-15.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
+																					</div>
+																				</a>
+																			</div>
+																		</div>
+																		<!--Item-->
+																		<div class="filter_portrait width-and-height isotope-item brick-with-img">
+																			<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
+																				<a href="content-portfolio-slider.php?link=2016-04-10" class="brick-link">
+																					<div class="brick-hover-mask brick-hover">
+																						<h3 class="brick-title">Lionel Messi</h3>
+																					</div>
+																					<div class="brick-content">
+																						<img src="img/sketches-preview/2016-04-10.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
+																					</div>
+																				</a>
+																			</div>
+																		</div>
+																		<!--Item-->
+																		<div class="filter_portrait width-and-height isotope-item brick-with-img">
+																			<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
 																				<a href="content-portfolio-slider.php?link=2016-01-31" class="brick-link">
 																					<div class="brick-hover-mask brick-hover">
 																						<h3 class="brick-title">Abraham Lincoln</h3>
