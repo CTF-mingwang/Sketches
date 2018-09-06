@@ -94,6 +94,31 @@
 																	</div>
 																	<div class="isotope masonry isotope_fade" data-space="1px" data-size="brick" style="margin: -1px 0px 0px -1px;">
 																		<!--Item-->
+																		<div class="filter_portrait width-and-big isotope-item brick-with-img">
+																			<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
+																				<a href="content-portfolio-slider.php?link=2018-05-14" class="brick-link">
+																					<div class="brick-hover-mask brick-hover">
+																						<h3 class="brick-title">Zhi Zi</h3>
+																					</div>
+																					<div class="brick-content">
+																						<img src="img/sketches-preview/2018-05-14.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
+																					</div>
+																				</a>
+																			</div>
+																		</div>
+																		<div class="filter_portrait width-and-height isotope-item brick-with-img">
+																			<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
+																				<a href="content-portfolio-slider.php?link=2017-01-17" class="brick-link">
+																					<div class="brick-hover-mask brick-hover">
+																						<h3 class="brick-title">Marshall Mathers</h3>
+																					</div>
+																					<div class="brick-content">
+																						<img src="img/sketches-preview/2017-01-17.jpg" class="attachment-imagebox-thumb wp-post-image" alt="IMG_4783">
+																					</div>
+																				</a>
+																			</div>
+																		</div>
+																		<!--Item-->
 																		<div class="filter_portrait width-and-height isotope-item brick-with-img">
 																			<div class="inside brick-inside post-bgcolor-default" style=" margin:1px 0 0 1px;">
 																				<a href="content-portfolio-slider.php?link=2016-05-15" class="brick-link">

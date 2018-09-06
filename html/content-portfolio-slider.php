@@ -75,63 +75,19 @@
 									<div class="gallery-images-wrap ">
 										<div class="row-fluid "><div class="clear gallery-post-wrap">
 											<div class="gallery-wrap-slider" style="background:#FFF; color:#FFF">
-												<!--galleria slider
-												data-crop: fit: flase, fill: true
-												data-transition: fade, slide
-												data-interval: timer
-												-->
 												<div class="galleria" data-crop="false" data-transition="fade" data-interval="5000">
 													<img src="http://cwsoft.cc/sketches/img/sketches/<?php echo $_GET['link']; ?>.JPG">
 												</div>
-											</div><!--
-											<div class="gallery-info-wrap container">
-												<div class="title-bar-wrap " id="title-bar">
-													<div id="title-wrap">
-														<div class="title-wrap-inn">
-															<div id="main-title">
-																<h1 class="main-title">Duke Decore</h1>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="row-fluid">
-													<div class="entry span9">
-														<p>
-															A handsome dude.
-														</p>
-													</div>
-													<ul class="gallery-info-property span3">
-														<li><span class="gallery-info-property-tit">Author:</span>
-															<span><a href="https://cwsoft.cc">David Chen</a></span></li>
-														<li><span class="gallery-info-property-tit date">Date:
-														</span> <span>September 13, 2015</span></li>
-													</ul>
-												</div>
 											</div>
 										</div>
-
-											<section class="related-post-wrap clearfix"><div class="row-fluid"></div></section>
-											-->
-
-                                            <!--End related-post-erap-->
-
 										</div>
-										</div>
-										<!--end row-fluid-->
 									</div>
-									<!--end gallery-images-wrap -->
 								</div>
-								<!--end row-fluid gallery-wrap-->
 							</div>
-							<!--end content_wrap-->
-						</div>
-						<!--end post-->
+						</div
 					</div>
-					<!--end content-->
 				</div>
-				<!--End #main-->
 			</div>
-			<!--End #main-wrap-->
 			<div id="hot-close-sidebar-touch"></div>
 		</div><!--End #wrap-->
 		<div id="float-bar" class="hidden-phone">
